@@ -1,0 +1,231 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .data
+    {
+        padding: 12px 0;
+    }
+
+
+    header .address
+    {
+        display: none;
+    }
+
+
+    header .search
+    {
+        margin-left: 40px;
+    }
+
+
+    header .phone
+    {
+        margin-left: 20px;
+    }
+
+
+    header .callback_btn
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .section + .section
+    {
+        margin-top: 48px;
+    }
+
+
+    .team .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .team .row
+    {
+        margin-left: -24px;
+    }
+
+    .team .row > *
+    {
+        width: calc(20% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .team .person .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 16px;
+    }
+
+    .team .person .post
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 48px;
+    }
+
+
+    footer .title
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    footer .links + .links
+    {
+        margin-top: 28px;
+    }
+
+
+    footer .links .items
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .links .items > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    footer .links .items a
+    {
+        line-height: normal;
+    }
+
+
+    footer .contacts .data
+    {
+        line-height: normal;
+
+        margin-top: 24px;
+    }
+
+    footer .contacts .data > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    footer .map
+    {
+        width: 320px;
+        height: 320px;
+    }
+
+
+    footer .privacy_policy_link,
+    footer .copyright
+    {
+        line-height: normal;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
